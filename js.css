@@ -1,0 +1,136 @@
+.section1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background: #00e5f3;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.text1{
+	font-size: 48px; 
+}
+.text2{
+	font-size: 28px;
+}
+
+.sign{
+	text-align: center;
+	border: 1px solid #0f0f11;
+	width: 20%;
+	padding:32px;
+	background: #2e3f40;
+
+}
+
+.buttom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto 23px;
+	font-size: 14px;
+	text-transform: uppercase;
+	opacity: 0.8;
+}
+
+.nav_link, .nav_link1{
+
+    padding: 20px 95px; 
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .1s linear, color .1s linear;
+}
+.nav_link, .nav_link1:hover{
+	background-color: #a1bcc3;
+	color: #333;
+}
+
+
+.form-control{
+	font-family: 'Times New Roman', sans-serif;
+
+	width: 380px;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 18px;
+}
+
+
+form .submit{
+	background: #ff661	0;
+	font-family: 'Times New Roman', sans-serif;
+
+}
+
+input[type=submit] {
+    width: 380px;
+    height: 55px;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 21.52px;
+
+}
+
+
+
+
+
+/*2222222222222222222222222*/
+
+.section2{
+	background: #fff;
+	width: 100%;
+	height: 100vh;
+	line-height: 2.2;
+}
+
+.flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.info{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.info1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*3333333333333333333333333*/
+.section3{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background: #333333;
+	width: 100%;
+	height: 100vh;
+}
+
+.bro1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
