@@ -1,75 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ELINGUAGE</title>
-	<link rel="stylesheet" type="text/css" href="designcss/js.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELINGUAGE</title>
+    <link rel="stylesheet" type="text/css" href="designcss/js.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-	<div class="fullpage">
-
-		<div class="section1">
-			<div class="text">
-				<div class="text1">ELINGUAGE</div>
-				<div class="text2">Talk to people artificial language</div>
-			</div>
-			<div class="sign">
-				<div class="buttom">
-					<a class="nav_link1" href="#">Join us</a>
-					<a class="nav_link" href="#">Sign in</a>
-				</div>
-				<input type="text" name="name" class="form-control" placeholder="Name" required=""></br>
-				<input type="text" name="name" class="form-control" placeholder="E-mail" required=""></br>
-				<input type="text" name="name" class="form-control" placeholder="Password" required="">
-				<p class="text3">If you’re the celebrity, enter the code to create a language</p>
-				<input type="submit" name="" class="form-control submit" value="Register now">
-			</div>
-		</div>
-
-		<div class="section2">
-			<div class="flex">
-				<div class="title">What is Elinguage?</div>
-				<div class="starttitle">Web platform for communication using different artificial languages. New idea for your and your friends fun. Enjoy yor conversation!</div>
-				<div class="title">How it works?</div>
-				<div class="info">
-					<div class="info1">
-						<div class="change">Start</div>
-						<div class="change1">Register or sign in</div>
-					</div>
-					<div class="info1">
-						<div class="change">Translate</div>
-						<div class="change1">Write word or expression, choose the language and translate</div>
-					</div>
-					<div class="info1">
-						<div class="change">Share</div>
-						<div class="change1">Share the five-letter conversation code with other members, who can use it to join your group.</div>
-					</div>
-					<div class="info1">
-						<div class="change">Create</div>
-						<div class="change1">Create your own language!</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="section3">
-			<div class="bro">ELINGUAGE</div>
-			<div class="bro1">
-				<div class="bro11">Connect with us</div>
-				<div class="bro11">support@elinguage.com</div>
-			</div>
-		</div>
-
-	</div>
+    <div class="fullpage">
 
 
+        <section class="section1">
+            <div class="text">
+                <img src="./Images/logo.png" alt="logo">
+                <h class="text2">Talk to people artificial language</h>
+            </div>
+            <div class="forma">
+                 <div class="container">
+
+                    <div class="tabs">
+                        <a onClick="activatetab('1')" class="tab active">Join us</a>
+                        <a onClick="activatetab('2')" class="tab">Sign in</a>
+                    </div>
+
+                    <div class="info">
+                        <div class="content active">
+                            <div class="enterText">
+                                <form class="enterText" action="js.html" method="POST">
+                                    <input type="text" placeholder="Name">
+                                    <input type="email" placeholder="Email">
+                                    <input type="password" placeholder="Password">
+                                    <p>If you’re the celebrity, enter the code to create a language</p>
+                                    <input type="text" placeholder="Code">
+                                    <a href="#"><div>Register now</div></a>
+                                 </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="Starttext">
+                <h1>What is Elinguage?</h1>
+                <p>Web platform for communication using different artificial languages. New idea for your and your friends fun. Enjoy yor conversation!</p>
+            </div>
+
+            <div class="EndText">
+                <h1 class="title">How it works?</h1>
+                <div class="flex">
+                    <div class="info1">
+                        <img src="./Images/start.png">
+                        <p class="change">Start</p>
+                        <p class="change1">Register or sign in</p>
+                    </div>
+                    <div class="info1">
+                        <img src="./Images/translate.png">
+                        <p class="change">Translate</p>
+                        <p class="change1">Write word or expression, choose the language and translate</p>
+                    </div>
+                    <div class="info1">
+                        <img src="./Images/share.png">
+                        <p class="change">Share</p>
+                        <p class="change1">Share the five-letter conversation code with other members, who can use it to join your group.</p>
+                    </div>
+                    <div class="info1">
+                        <img src="./Images/share.png">
+                        <p class="change">Create</p>
+                        <p class="change1">Create your own language!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
+        <section class="color">
+            <div class="footer">
+                <img src="./images/logo2.png">
+                <div class="mainFooter">
+                    <div class="infofooter">
+                        <p class="line">Connect with us</p>
+                        <p>funkynine@mail.ua</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-	
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src='jquery.fullpage.js'></script> 
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.fullpage').fullpage({
+            //options here
+            autoScrolling:true,
+            scrollHorizontally: true
+        });
+
+    });
+
+</script>
 
 </body>
 </html>
